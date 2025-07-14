@@ -7,7 +7,7 @@ public class CountDigits {
             int rem=num%10;
             if(target==rem){
                 count++;
-            }
+            }   
             num=num/10;
         }
         return count;
